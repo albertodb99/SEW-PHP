@@ -19,7 +19,7 @@
         <article>
             <h2>Calcule todo lo que quiera!</h2>
             <p>
-                Calculadora desarrollada por el UO266536, para el ejercicio 3 de la asignatura Software y Estándares
+                Calculadora desarrollada por el UO266536, para el ejercicio 1 de la asignatura Software y Estándares
                 para la Web, del tercer curso del grado en Ingeniería Informática de la Universidad de Oviedo.
             </p>
         </article>
