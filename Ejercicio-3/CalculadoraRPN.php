@@ -84,11 +84,12 @@ class BotoneraRPN {
     }
 
     public function mostrarPila(){
-        $this->stack->mostrar();
+        return $this->stack->mostrar();
     }
 
     public function realizarOperacion($operacion){
         $resultadoOperacion = 0;
+        try{
         switch($operacion){
             case '+':
                 $operando1 = floatval($this->stack->desapilar());
@@ -176,15 +177,18 @@ class BotoneraRPN {
                 $this->stack->apilar($resultadoOperacion);
                 break;
         }
+    }catch(Exception $e){
+        $this->mensaje = "Ha habido un error, por favor, reinicie la calculadora.";
     }
+}
 
     public function factorialAux($num){
-        if ($num === 0) { 
-            return 1; 
+        $factorial = 1;
+        for ($x=$num; $x>=1; $x--)
+        {
+            $factorial = $factorial * $x;
         }
-        else { 
-            return $num * $this->factorialAux($num - 1); 
-        }
+        return $factorial;
     }
 
     public function digitos($boton){
@@ -210,7 +214,7 @@ class BotoneraRPN {
     }
 
     public function borrarUltimoNumero(){
-        $this->pila->desapilar();
+        $this->stack->desapilar();
     }
 
     public function doNothing(){
@@ -244,7 +248,7 @@ if (count($_POST)>0)
         if(isset($_POST['boton7'])) $miBotonera->digitos("7");
         if(isset($_POST['boton8'])) $miBotonera->digitos("8");
         if(isset($_POST['boton9'])) $miBotonera->digitos("9");
-        if(isset($_POST['botonPI'])) $miBotonera->digitos("pi()");
+        if(isset($_POST['botonPI'])) $miBotonera->digitos(pi());
         if(isset($_POST['botonLog10'])) $miBotonera->realizarOperacion('log10');
         if(isset($_POST['botonLog2'])) $miBotonera->realizarOperacion('log2');
         if(isset($_POST['botonExp'])) $miBotonera->realizarOperacion('exp');
@@ -285,9 +289,7 @@ echo "
         <label for = 'mostrarPila' class = 'pila' lang = 'es'>
         Subir a Pila:
         </label>
-        <textarea id = 'mostrarPila' disabled>
-            $mostrarPila
-        </textarea>
+        <textarea id = 'mostrarPila' disabled>$mostrarPila</textarea>
 
         <label for = 'pantalla' class = 'pantalla' lang = 'es'>
         Subir a Pila:
