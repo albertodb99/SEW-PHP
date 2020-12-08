@@ -72,6 +72,8 @@ class Botonera {
         }
         catch (Exception $e) {
             $this->mensaje = "Error: " .$e->getMessage();
+        }catch (ParseError $e) {
+            $this->mensaje = "Error: " .$e->getMessage();
         }
             
     }
@@ -292,8 +294,8 @@ echo "
             
         <form action='#' method='post' name='botones' class = 'calculadora'>
             
-            <input type = 'submit' class='memoria' name = 'botonNada' value = ''/>
-            <input type = 'submit' class='memoria' name = 'botonNada' value = ''/>
+            <input type = 'submit' class='vacio' name = 'botonNada' value = 'nada'/>
+            <input type = 'submit' class='vacio' name = 'botonNada' value = 'nada'/>
             <input type = 'submit' class='memoria' name = 'mrc' value = 'mrc'/>
             <input type = 'submit' class='memoria' name = 'mmas' value = 'm+'/>
             <input type = 'submit' class='memoria' name = 'mmenos' value = 'm-'/>  
