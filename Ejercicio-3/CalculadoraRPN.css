@@ -74,6 +74,11 @@ input[class = "operando"]{
     background-color: rgb(189, 179, 179);
     color: rgb(54, 51, 51);
 }
+input[class = "vacio"]{
+    background-color: rgb(189, 179, 179);
+    color: rgb(54, 51, 51);
+    font-size: 0px;
+}
 input[class = "memoria"]{
     background-color: rgb(78, 70, 70);
     color: #EEE;

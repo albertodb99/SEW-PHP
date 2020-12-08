@@ -9,7 +9,7 @@
         <meta name="copyright" content="Alberto Díez Bajo"/>
         <meta name="description" content="Página en la que puedes realizar tus cálculos con una calculadora ciéntifica"/>
         <meta name="viewport" content="width=device-width, user-scalable=yes">
-        <title>Calculadora Ciéntifica</title>
+        <title>Calculadora RPN</title>
         <link rel = "stylesheet" href = "CalculadoraRPN.css"/>
     </head>
     <body>
@@ -340,8 +340,8 @@ echo "
             <input type = 'submit' class='button' name = 'boton3' value = '3'/>
             <input type = 'submit' class='operando' name = 'suma' value = '+'/>
     
-            <input type = 'submit' class='operando' name = 'botonNada' value = ''/>
-            <input type = 'submit' class='operando' name = 'botonNada' value = ''/>
+            <input type = 'submit' class='vacio' name = 'botonNada' value = 'nada'/>
+            <input type = 'submit' class='vacio' name = 'botonNada' value = 'nada'/>
             <input type = 'submit' class='button' name = 'boton0' value = '0'/>
             <input type = 'submit' class='button' name = 'punto' value = '.'/>
             <input type = 'submit' class='operando' name = 'enter' value = 'Enter'/>
