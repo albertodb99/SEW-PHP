@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://localhost/PRACTICA-4/Ejercicio-4/Ejercicio4.php# -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Datos que describen el documento -->
+    
+    <meta name="author" content="Alberto Díez Bajo">
+    <meta name="copyright" content="Alberto Díez Bajo">
+    <meta name="description" content="Página web de traducción de contenido">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <title>Traduccion de contenido</title>
+    <link rel="stylesheet" type="text/css" href="./Ejercicio4_files/Ejercicio4.css">
+</head>
+
+<body>
+    <header>
+        <!-- Datos con el contenidos que aparece en el navegador -->
+        <h1>Traduccion de contenido</h1>
+    </header>
+    <article>
+        <h2>
+            Aquí podrás traducir tu contenido!
+        </h2>
+        <p>
+            Aquí podrás traducir lo que desees del español a uno de los idiomas disponibles de la lista!
+        </p>
+        
+            <form action="http://localhost/PRACTICA-4/Ejercicio-4/Ejercicio4.php#" method="post">
+                <label for="idiomas">Escoge un idioma:</label>
+
+                <select name="idiomas" id="idiomas">
+                <option value="en">Inglés</option>
+                <option value="it">Italiano</option>
+                <option value="fr">Francés</option>
+                </select>
+                <label for="aTraducir" lang="es">
+                    Escribe aquí el texto que quieres traducir:
+                </label>
+                <textarea id="aTraducir" name="aTraducir">
+                </textarea>
+                <label for="traducido" lang="es">
+                    Texto traducido:
+                </label>
+                <textarea id="traducido" name="traducido" disabled="">pepe eats chorizo happily sitting on a rocky ledge</textarea>
+                <p>Click aquí para traducir:</p>
+                <input type="submit" class="button" name="btnTraducir" value="Toca aquí para traducir">
+                </form>    </article>
+
+
+</body></html>

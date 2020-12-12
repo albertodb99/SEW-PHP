@@ -10,7 +10,7 @@
     <meta name="description" content="Página web de traducción de contenido" />
     <meta name="viewport" content="width=device-width, user-scalable=yes">
     <title>Traduccion de contenido</title>
-    <link rel="stylesheet" type="text/css" href="Ejercicio10.css" />
+    <link rel="stylesheet" type="text/css" href="Ejercicio4.css" />
 </head>
 
 <body>
