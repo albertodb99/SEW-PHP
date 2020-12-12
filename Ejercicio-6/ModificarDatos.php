@@ -65,31 +65,31 @@
             }
         }
         echo   "<form action='#' method='post'>
-                <label for 'dni'>DNI:</label>
+                <label for = 'dni'>DNI:</label>
                 <input type = 'text' id = 'dni' name = 'dni'/>
-                <label for 'nombre'>Nombre:</label>
+                <label for = 'nombre'>Nombre:</label>
                 <input type = 'text' id = 'nombre' name = 'nombre'/>
-                <label for 'apellidos'>Apellidos:</label>
+                <label for = 'apellidos'>Apellidos:</label>
                 <input type = 'text' id = 'apellidos' name = 'apellidos'/>
-                <label for 'email'>Email:</label>
+                <label for = 'email'>Email:</label>
                 <input type = 'text' id = 'email' name = 'email'/>
-                <label for 'telefono'>Telefono:</label>
+                <label for = 'telefono'>Telefono:</label>
                 <input type = 'text' id = 'telefono' name = 'telefono'/>
-                <label for 'edad'>Edad:</label>
+                <label for = 'edad'>Edad:</label>
                 <input type = 'number' id = 'edad' name = 'edad'/>
-                <label for 'sexo'>Sexo:</label>
+                <label for = 'sexo'>Sexo:</label>
                 <input type = 'text' id = 'sexo' name = 'sexo'/>
-                <label for 'nivel'>Nivel(0 al 10):</label>
+                <label for = 'nivel'>Nivel(0 al 10):</label>
                 <input type = 'number' id = 'nivel' name = 'nivel'/>
-                <label for 'tiempo'>Tiempo(s):</label>
+                <label for = 'tiempo'>Tiempo(s):</label>
                 <input type = 'number' id = 'tiempo' name = 'tiempo'/>
-                <label for 'correcta'>¿Es correcta?:</label>
+                <label for = 'correcta'>¿Es correcta?:</label>
                 <input type = 'text' id = 'correcta' name = 'correcta'/>
-                <label for 'comentarios'>Comentarios:</label>
+                <label for = 'comentarios'>Comentarios:</label>
                 <input type = 'text' id = 'comentarios' name = 'comentarios'/>
-                <label for 'propuestas'>Propuestas:</label>
+                <label for = 'propuestas'>Propuestas:</label>
                 <input type = 'text' id = 'propuestas' name = 'propuestas'/>
-                <label for 'valoracion'>Valoración(0 al 10):</label>
+                <label for = 'valoracion'>Valoración(0 al 10):</label>
                 <input type = 'number' id = 'valoracion' name = 'valoracion'/>
                 <p><p>
                 <input type = 'submit' class='button' name = 'modificarRegistro' value = 'Modificar registro'/>
