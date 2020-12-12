@@ -87,6 +87,7 @@
         }
         echo "
             <form action='#' method='post'>
+            <div>
                 <label for='idiomas'>Escoge un idioma:</label>
 
                 <select name='idiomas' id='idiomas'>
@@ -106,6 +107,7 @@
                 <textarea id = 'traducido' name = 'traducido' disabled>$traduccion</textarea>
                 <p>Click aquí para traducir:</p>
                 <input type = 'submit' class='button' name = 'btnTraducir' value = 'Toca aquí para traducir'/>
+                </div>
                 </form>"
         ?>
     </article>
