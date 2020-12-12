@@ -48,7 +48,7 @@
             }
         }
         echo   "<form action='#' method='post'>
-                <label for 'dni'>DNI:</label>
+                <label for = 'dni'>DNI:</label>
                 <input type = 'text' id = 'dni' name = 'dni'/>
                 <p><p>
                 <input type = 'submit' class='button' name = 'eliminarRegistro' value = 'Eliminar registro'/>
