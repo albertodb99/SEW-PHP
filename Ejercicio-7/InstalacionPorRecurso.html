@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)http://localhost/PRACTICA-4/Ejercicio-7/ConsultaInstalacionRecurso.php# -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Datos que describen el documento -->
+    
+    <meta name="author" content="Alberto Díez Bajo">
+    <meta name="copyright" content="Alberto Díez Bajo">
+    <meta name="description" content="En esta sección, podrás buscar las instalaciones que tienen un recurso determinado">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <title>Gestion de Instalaciones: Instalaciones por recurso</title>
+    <link rel="stylesheet" type="text/css" href="./InstalacionPorRecurso_files/Ejercicio7.css">
+</head>
+
+<body>
+    <header>
+        <!-- Datos con el contenidos que aparece en el navegador -->
+        <h1>Gestion de Instalaciones</h1>
+    </header>
+    <article>
+        <h2>Recursos por instalacion</h2>
+        <ul>
+            <li><a href="http://localhost/PRACTICA-4/Ejercicio-7/Ejercicio7.php" title="Volver al menú principal">Volver al menú principal</a></li>
+        </ul>
+        <p>
+            Introduce aquí los datos para buscar un registro:
+        </p>
+        <div class="table">
+            <table>
+                <thead>
+                        <tr>
+                            <th><strong>idRecurso</strong></th>
+                            <th><strong>nombreRecurso</strong></th>
+                            <th><strong>nombreInstalacion</strong></th>
+                            <th><strong>cantidad</strong></th>
+                        </tr>
+                </thead>
+                <tbody><tr>
+                <td>1</td>
+                <td>Mancuernas</td>
+                <td>Gimnasio Central</td>
+                <td>5</td>
+                </tr><tr>
+                <td>1</td>
+                <td>Mancuernas</td>
+                <td>Sala Exterior</td>
+                <td>12</td>
+                </tr></tbody>
+            </table>
+            </div><form action="http://localhost/PRACTICA-4/Ejercicio-7/ConsultaInstalacionRecurso.php#" method="post">
+                <label for="recursos">Escoge un recurso:</label>
+
+                <select name="recursos" id="recursos">
+                <option value="1">Mancuernas</option>
+                <option value="2">Discos de 5kg</option>
+                <option value="3">Pesas</option>
+                <option value="4">Bicicletas</option>
+                <option value="5">Cintas de Correr</option>
+                <option value="6">Colchonetas</option>
+                <option value="7">Remos</option>
+                <option value="8">Churros de Flotación</option>
+                </select>
+                <p></p><p>
+                <input type="submit" class="button" name="consultaRecursos" value="Consulta las instalaciones">
+                </p></form>    </article>
+    <footer>
+        <p>Web HTML y CSS válida</p>
+    </footer>
+
+
+</body></html>
