@@ -40,7 +40,7 @@ div{
   padding: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background: rgba(31, 28, 28, 0.911); /* light background with opacity 50% */
+  background: rgba(0, 0, 0); /* light background with opacity 50% */
   color: rgb(255, 255, 255);
   border-radius: 5px;
   font-size: 15px; 
