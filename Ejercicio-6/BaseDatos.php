@@ -192,6 +192,7 @@ class BaseDatos
         }
 
         echo "</tbody>
+            </table>
             </div>";
 
         $consulta->close();
